@@ -16,7 +16,7 @@ Create and activate a venv:
 python3 -m venv venv
 ```
 ```
-source env/bin/activate
+source venv/bin/activate or source venv/Scripts/activate
 ```
 Install dependencies from a file requirements.txt:
 ```
@@ -39,7 +39,7 @@ Django==2.2.16
 django-filter==21.1
 djangorestframework==3.12.4
 djangorestframework-simplejwt==4.7.2
-djoser==2.1.0
+djoser
 Pillow==8.3.1
 PyJWT==2.1.0
 requests==2.26.0
@@ -194,7 +194,7 @@ POST /api/v1/jwt/create/
 ### License
 MIT License
 
-Copyright (c) 2021 Ivanov Vyacheslav
+Copyright (c) 2022 Ivanov Vyacheslav
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
