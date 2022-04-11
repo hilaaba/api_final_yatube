@@ -2,7 +2,7 @@
 ## **Description**
 API for interacting with **YaTube**(https://github.com/hilaaba/api_final_yatube.git) project.
 ### Authors
-Ivanov Vyacheslav
+Vyacheslav Ivanov
 ## **How to start the project**
 Clone the repository and go to it on the command line:
 ```
@@ -16,7 +16,7 @@ Create and activate a venv:
 python3 -m venv venv
 ```
 ```
-source venv/bin/activate or source venv/Scripts/activate
+source venv/bin/activate
 ```
 Install dependencies from a file requirements.txt:
 ```
