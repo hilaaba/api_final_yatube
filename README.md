@@ -1,7 +1,7 @@
 # **API for YaTube**
 ## **Description**
 API for interacting with **YaTube**(https://github.com/hilaaba/api_final_yatube.git) project.
-### Authors
+### Author
 Vyacheslav Ivanov
 ## **How to start the project**
 Clone the repository and go to it on the command line:
