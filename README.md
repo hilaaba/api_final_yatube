@@ -7,22 +7,19 @@ Vyacheslav Ivanov
 Clone the repository and go to it on the command line:
 ```
 git clone https://github.com/hilaaba/api_final_yatube.git
-```
-```
+
 cd api_yatube
 ```
 Create and activate a venv:
 ```
 python3 -m venv venv
-```
-```
+
 source venv/bin/activate
 ```
 Install dependencies from a file requirements.txt:
 ```
 python3 -m pip install --upgrade pip
-```
-```
+
 python3 -m pip install -r requirements.txt
 ```
 Perform migrations:
