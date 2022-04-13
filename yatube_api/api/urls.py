@@ -1,7 +1,7 @@
 from django.urls import include, path
 from rest_framework import routers
 
-from .views import CommentViewSet, GroupViewSet, PostViewSet, FollowViewSet
+from .views import CommentViewSet, FollowViewSet, GroupViewSet, PostViewSet
 
 app_name = 'api'
 
@@ -18,7 +18,7 @@ router.register(r'follow', FollowViewSet, basename='follows')
 
 
 urlpatterns = [
-    path('v1/auth/', include('djoser.urls')),
-    path('v1/auth/', include('djoser.urls.jwt')),
+    path('v1/', include('djoser.urls')),
+    path('v1/', include('djoser.urls.jwt')),
     path('v1/', include(router.urls)),
 ]

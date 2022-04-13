@@ -1,7 +1,7 @@
 # **API for YaTube**
 ## **Description**
 API for interacting with **YaTube**(https://github.com/hilaaba/api_final_yatube.git) project.
-### Authors
+### Author
 Vyacheslav Ivanov
 ## **How to start the project**
 Clone the repository and go to it on the command line:
@@ -39,7 +39,7 @@ Django==2.2.16
 django-filter==21.1
 djangorestframework==3.12.4
 djangorestframework-simplejwt==4.7.2
-djoser
+djoser==2.0.1
 Pillow==8.3.1
 PyJWT==2.1.0
 requests==2.26.0
